@@ -1,0 +1,100 @@
+(footprint "PERS56v2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "PER56 - 56 mm Low Profile Incremental Ring Encoder")
+  (tags "encoder, scroll ring, pers56")
+  (property "Sheetfile" "UniChunky2022.kicad_sch")
+  (property "Sheetname" "")
+  (attr through_hole)
+  (fp_text reference "ENC1" (at -0.186125 -10.989441 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 25e750e2-d95c-4a11-b1be-0101cb715401)
+  )
+  (fp_text value "PER561-P115-N0015" (at 0 1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4b6088dd-e738-4420-a9b4-120e8cccf04e)
+  )
+  (fp_circle (center 0 0) (end 24 0) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 1341c8cc-e1bf-4598-bd80-5df784b20753))
+  (fp_circle (center 0 0) (end 30 0) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 2a60617e-692f-4d6b-b3c3-4b24bfe62011))
+  (fp_circle (center 0 0) (end 23.4935 0) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 5201de3d-3530-4388-840a-6ae8e7e2e8b1))
+  (fp_circle (center 0 0) (end 29 0) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 68a73cfd-24ce-40c2-b4c2-9cbcefb8761e))
+  (fp_circle (center 0 0) (end 24 0) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 17019472-fc39-4db8-af44-c42e9fcfeaec))
+  (fp_circle (center 0 0) (end 30 0) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 7f50c014-b84f-4cb3-93ae-1e35c6dc2084))
+  (fp_circle (center 0 0) (end 29 0) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 8336f14f-b423-4b7d-90b6-05a058e25202))
+  (fp_circle (center 0 0) (end 23.4935 0) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 89bee2a4-b1e3-4fbe-b115-c16d3e82f36a))
+  (fp_circle (center 10.091931 -27.732996) (end 11.191931 -27.732996) (layer "User.7") (width 0.1) (fill none) (tstamp 34d66daa-e0a9-4b3c-bbf0-e6e0e5e8c57e))
+  (fp_circle (center -28.095244 2.952929) (end -26.345244 2.952929) (layer "User.7") (width 0.1) (fill none) (tstamp 356032eb-d395-4688-9a95-3b5745edd43c))
+  (fp_circle (center 23.544338 -4.573199) (end 24.644338 -4.573199) (layer "User.7") (width 0.1) (fill none) (tstamp 35e79cb2-001c-400a-9673-0bbf212bde65))
+  (fp_circle (center -2.5 30) (end -1.95 30) (layer "User.7") (width 0.1) (fill none) (tstamp 386d53f3-2b12-4049-84ad-e06d98d4a6bb))
+  (fp_circle (center 2.5 30) (end 3.05 30) (layer "User.7") (width 0.1) (fill none) (tstamp 4a5159f0-1d4e-4b5c-9ccc-d01ac180579b))
+  (fp_circle (center -20.134933 12.098289) (end -18.134933 12.098289) (layer "User.7") (width 0.1) (fill none) (tstamp 4f7fcbfd-0985-47b5-a1bc-76112e7389a3))
+  (fp_circle (center -10.094278 -27.7333) (end -8.994278 -27.7333) (layer "User.7") (width 0.1) (fill none) (tstamp 504134a9-6a8c-49ae-b1e4-e7adc26e154c))
+  (fp_circle (center 20.548742 11.390354) (end 22.548742 11.390354) (layer "User.7") (width 0.1) (fill none) (tstamp 7a634c02-a950-4f5b-832c-edd8ff120944))
+  (fp_circle (center -0.399847 -23.484645) (end 1.600153 -23.484645) (layer "User.7") (width 0.1) (fill none) (tstamp 9590544a-7457-40d4-857e-f65516ed410e))
+  (fp_circle (center 0 30) (end 0.55 30) (layer "User.7") (width 0.1) (fill none) (tstamp 9b04a4ac-24cc-4275-b4fb-6e9beeddb1e3))
+  (fp_circle (center 28.070731 2.95064) (end 29.820731 2.95064) (layer "User.7") (width 0.1) (fill none) (tstamp d496107e-acc0-4835-941f-29246e161dc7))
+  (fp_circle (center -23.289742 -5.8064) (end -22.189742 -5.8064) (layer "User.7") (width 0.1) (fill none) (tstamp e1ab4ba8-4912-451c-828e-bdd70003bbc3))
+  (fp_line (start 0 0) (end 10.260604 -28.190779) (layer "User.8") (width 0.1) (tstamp 01582ec1-4d58-491c-94af-d46a6f1bbb00))
+  (fp_line (start 0 0) (end 26.238591 14.544289) (layer "User.8") (width 0.1) (tstamp 02fe1bbe-0ec6-4aab-9e85-ecf9f590c98d))
+  (fp_line (start 0 0) (end 30 0) (layer "User.8") (width 0.1) (tstamp 2de4c13d-2adc-4105-9a42-fdc7a775d71e))
+  (fp_line (start 0 0) (end -29.051648 -7.243389) (layer "User.8") (width 0.1) (tstamp 3d62af65-2af5-4592-8929-7b384cc79ede))
+  (fp_line (start 0 0) (end 29.454776 -5.725429) (layer "User.8") (width 0.1) (tstamp 64f464fb-df03-4a77-950b-ffca813e52c0))
+  (fp_line (start 0 0) (end -0.523572 -29.995431) (layer "User.8") (width 0.1) (tstamp 668c60eb-c195-4f22-baac-bebb41efb734))
+  (fp_line (start 0 0) (end 29.950221 3.147895) (layer "User.8") (width 0.1) (tstamp 8614a2ca-5679-4d89-ae29-b2f3f2fd1243))
+  (fp_line (start 0 0) (end -25.715019 15.451142) (layer "User.8") (width 0.1) (tstamp 8eb1ccfc-f2b7-4852-a934-d0f9280f0bd1))
+  (fp_line (start 0 0) (end -29.835657 3.135854) (layer "User.8") (width 0.1) (tstamp a4a82757-696a-4a25-b7b2-7d3db962127d))
+  (fp_line (start 0 -30) (end 0 30) (layer "User.8") (width 0.1) (tstamp a9cf976a-1fcd-40c6-9766-43fead9fddb6))
+  (fp_line (start 0 0) (end -10.260604 -28.190779) (layer "User.8") (width 0.1) (tstamp b37d28e1-afd4-4cd5-bf9f-4fdf90200156))
+  (pad "" np_thru_hole circle (at -20.134933 12.098289) (size 4.2 4.2) (drill 4.2) (layers F&B.Cu *.Mask) (tstamp 08279a5a-d5c2-4674-aea3-904d0edd48fb))
+  (pad "" thru_hole circle (at -10.094278 -27.7333) (size 3.2 3.2) (drill 2.4) (layers *.Cu *.Mask) (tstamp 0927ccac-29da-402b-9b90-09e1c0e23b83))
+  (pad "" np_thru_hole circle (at -23.289742 -5.8064) (size 2.4 2.4) (drill 2.4) (layers F&B.Cu *.Mask) (tstamp 092cca08-46b4-4af2-94cc-b1e550cd5a60))
+  (pad "" np_thru_hole circle (at -0.399847 -23.484645) (size 4.2 4.2) (drill 4.2) (layers F&B.Cu *.Mask) (tstamp 89bca128-7ee4-45e7-aad5-7fa64899ea50))
+  (pad "" thru_hole circle (at 10.091931 -27.732996) (size 3.2 3.2) (drill 2.4) (layers *.Cu *.Mask) (tstamp a42b7fa7-7959-4973-a101-e076cbe339b5))
+  (pad "" np_thru_hole circle (at 23.544338 -4.573199) (size 2.4 2.4) (drill 2.4) (layers F&B.Cu *.Mask) (tstamp c0c0382f-b27b-4722-b75d-41f7692c13b2))
+  (pad "" np_thru_hole circle (at 20.548742 11.390354) (size 4.2 4.2) (drill 4.2) (layers F&B.Cu *.Mask) (tstamp c787f120-f531-48b8-805c-3e6aee570217))
+  (pad "A" thru_hole circle (at -2.5 30) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask) (tstamp afa8ae99-1357-4002-918d-fed1a813159a))
+  (pad "B" thru_hole circle (at 2.5 30) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask) (tstamp 05085d94-a2d5-40ff-92bc-1754d410ac4a))
+  (pad "C" thru_hole circle (at 0 30) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask) (tstamp bd8ed6f4-5a5f-46e2-bea2-8ad90a781609))
+  (pad "MP" thru_hole rect (at -28.095244 2.952929) (size 4.4 4.4) (drill oval 3.8 3.9) (layers *.Cu *.Mask) (tstamp 1c4e9472-b2f7-40be-a526-04a72284aa59))
+  (pad "MP" thru_hole rect (at 28.070731 2.95064) (size 4.4 4.4) (drill oval 3.8 3.9) (layers *.Cu *.Mask) (tstamp bed3f802-ebf8-44b6-80a5-0a468349f00b))
+  (group "" (id d9cc2c6b-b4be-4d1a-bf93-461a396c4f71)
+    (members
+      01582ec1-4d58-491c-94af-d46a6f1bbb00
+      02fe1bbe-0ec6-4aab-9e85-ecf9f590c98d
+      1341c8cc-e1bf-4598-bd80-5df784b20753
+      17019472-fc39-4db8-af44-c42e9fcfeaec
+      2a60617e-692f-4d6b-b3c3-4b24bfe62011
+      2de4c13d-2adc-4105-9a42-fdc7a775d71e
+      34d66daa-e0a9-4b3c-bbf0-e6e0e5e8c57e
+      356032eb-d395-4688-9a95-3b5745edd43c
+      35e79cb2-001c-400a-9673-0bbf212bde65
+      386d53f3-2b12-4049-84ad-e06d98d4a6bb
+      3d62af65-2af5-4592-8929-7b384cc79ede
+      4a5159f0-1d4e-4b5c-9ccc-d01ac180579b
+      4f7fcbfd-0985-47b5-a1bc-76112e7389a3
+      504134a9-6a8c-49ae-b1e4-e7adc26e154c
+      5201de3d-3530-4388-840a-6ae8e7e2e8b1
+      64f464fb-df03-4a77-950b-ffca813e52c0
+      668c60eb-c195-4f22-baac-bebb41efb734
+      68a73cfd-24ce-40c2-b4c2-9cbcefb8761e
+      7a634c02-a950-4f5b-832c-edd8ff120944
+      7f50c014-b84f-4cb3-93ae-1e35c6dc2084
+      8336f14f-b423-4b7d-90b6-05a058e25202
+      8614a2ca-5679-4d89-ae29-b2f3f2fd1243
+      89bee2a4-b1e3-4fbe-b115-c16d3e82f36a
+      8eb1ccfc-f2b7-4852-a934-d0f9280f0bd1
+      9590544a-7457-40d4-857e-f65516ed410e
+      9b04a4ac-24cc-4275-b4fb-6e9beeddb1e3
+      a4a82757-696a-4a25-b7b2-7d3db962127d
+      a9cf976a-1fcd-40c6-9766-43fead9fddb6
+      b37d28e1-afd4-4cd5-bf9f-4fdf90200156
+      d496107e-acc0-4835-941f-29246e161dc7
+      e1ab4ba8-4912-451c-828e-bdd70003bbc3
+    )
+  )
+  (model "F:/KiCad/3DModels/PERS56-track.step" hide
+    (offset (xyz 0 0 -16))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

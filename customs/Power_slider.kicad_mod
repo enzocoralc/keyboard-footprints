@@ -1,0 +1,115 @@
+(footprint "Power_slider" (version 20220211) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62618C58)
+  (property "Sheetfile" "katana-ergo.kicad_sch")
+  (property "Sheetname" "")
+  (fp_text reference "SW1" (at 0 0.5 180) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ed4183bb-781c-4145-b8f6-4f5cf606c8e9)
+  )
+  (fp_text value "SW_SPDT" (at 0 -0.5 180) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 943de809-77e0-43d6-999e-b66d490789cf)
+  )
+  (fp_text user "SW01" (at 0 0.5 180) (layer "B.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp 3c23f531-4e85-46dc-b45d-82bb9a17b821)
+  )
+  (fp_text user "SW_SPDT" (at 0 -0.5 180) (layer "B.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp 15733515-dbdb-4862-94fe-0fff1be346cf)
+  )
+  (fp_poly
+    (pts
+      (xy -4.1 -0.75)
+      (xy -4.1 -1.45)
+      (xy -3.2 -1.45)
+      (xy -3.2 -0.75)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp c5c8f052-4493-40ec-ab60-b6c648322c3b))
+  (fp_poly
+    (pts
+      (xy -4.1 1.45)
+      (xy -4.1 0.75)
+      (xy -3.2 0.75)
+      (xy -3.2 1.45)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp c98c96fa-1783-4e05-a077-7d22d8ec31e7))
+  (fp_poly
+    (pts
+      (xy -2.55 -1.05)
+      (xy -2.55 -2.45)
+      (xy -1.95 -2.45)
+      (xy -1.95 -1.05)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 93654ce9-1f24-44c0-8a0b-aa8c816b2096))
+  (fp_poly
+    (pts
+      (xy 0.45 -1.05)
+      (xy 0.45 -2.45)
+      (xy 1.05 -2.45)
+      (xy 1.05 -1.05)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 43cb1c28-c7d3-4912-a3d0-c2a1f29fb4c0))
+  (fp_poly
+    (pts
+      (xy 1.95 -1.05)
+      (xy 1.95 -2.45)
+      (xy 2.55 -2.45)
+      (xy 2.55 -1.05)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 3683699e-af6d-413f-b906-9e191bd56e13))
+  (fp_poly
+    (pts
+      (xy 3.2 -0.75)
+      (xy 3.2 -1.45)
+      (xy 4.1 -1.45)
+      (xy 4.1 -0.75)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 5f6b182b-f523-41dc-b0b9-871c63ec8725))
+  (fp_poly
+    (pts
+      (xy 3.2 1.45)
+      (xy 3.2 0.75)
+      (xy 4.1 0.75)
+      (xy 4.1 1.45)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 559b2bc8-7e47-413d-a2f8-58f918eec634))
+  (fp_line (start -1.5 1.5) (end 1.5 1.5)
+    (stroke (width 0.12) (type solid)) (layer "B.Fab") (tstamp d9e0a165-09a4-4824-a9ce-587ad8b489da))
+  (fp_line (start -1.5 3) (end -1.5 1.5)
+    (stroke (width 0.12) (type solid)) (layer "B.Fab") (tstamp 8276a488-cf0b-490e-a51a-f80825dc9282))
+  (fp_line (start 1.5 1.5) (end 1.5 3)
+    (stroke (width 0.12) (type solid)) (layer "B.Fab") (tstamp 0c19dbaa-13be-4ae3-b406-b227cbf2821a))
+  (fp_line (start 1.5 3) (end -1.5 3)
+    (stroke (width 0.12) (type solid)) (layer "B.Fab") (tstamp 812958b4-1883-4e2c-a9b1-f8077b570178))
+  (fp_line (start -1.5 1.5) (end -1.5 3)
+    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 11e43c9b-b50c-431a-bfc7-ff671a5c86e8))
+  (fp_line (start -1.5 3) (end 1.5 3)
+    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp bfc432e8-3fa0-4f5f-b80d-3f907d0688c7))
+  (fp_line (start 1.5 1.5) (end -1.5 1.5)
+    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 11da7628-8f29-42d4-862e-2ff4a3a6e6d2))
+  (fp_line (start 1.5 3) (end 1.5 1.5)
+    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 8b63a6fc-a150-43f8-a3b5-8395952ffef0))
+  (pad "" smd rect (at -3.65 -1.1) (size 1 0.8) (layers "F.Cu") (tstamp c6f1ba1e-61e2-4269-8812-4587b9c9c402))
+  (pad "" smd rect (at -3.65 1.1) (size 1 0.8) (layers "F.Cu") (tstamp e25cf8fe-d0cd-4287-b923-fbe03ca7502a))
+  (pad "" np_thru_hole circle (at -1.5 0 180) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp 287f6406-20c0-4430-baa5-6e713312673a))
+  (pad "" np_thru_hole circle (at 1.5 0) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp 80022db3-47f6-43f7-87b1-fbb1081871ef))
+  (pad "" smd rect (at 3.65 -1.1) (size 1 0.8) (layers "F.Cu") (tstamp 97118eb4-3576-4300-b0b8-6c0b5ecb0c0b))
+  (pad "" smd rect (at 3.65 1.1) (size 1 0.8) (layers "F.Cu") (tstamp 7cee08cd-c504-4026-b4c3-3ca43bdae0c8))
+  (pad "1" smd rect (at -2.25 -1.75) (size 0.7 1.5) (layers "F.Cu") (tstamp c474f2fc-4141-4cc8-b3f6-c5779d2f584a))
+  (pad "2" smd rect (at 0.75 -1.75) (size 0.7 1.5) (layers "F.Cu") (tstamp 494f9afa-6728-4d72-a088-1b61ac7cdedb))
+  (pad "3" smd rect (at 2.25 -1.75) (size 0.7 1.5) (layers "F.Cu") (tstamp 08319c56-4c4a-417b-b6a6-d132075c9723))
+  (model "/home/cyril/workshop/git_keyboards/3d_files/SSSS811101.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
